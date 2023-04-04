@@ -22,7 +22,7 @@ if type brew &>/dev/null; then
 fi
 
 # zsh-autosuggestions setting
-source /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # locale setting
 export LC_ALL=en_US.UTF-8  
