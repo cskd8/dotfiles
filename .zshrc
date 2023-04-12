@@ -29,4 +29,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # java setting
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
