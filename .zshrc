@@ -27,3 +27,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # locale setting
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
+
+# java setting
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
